@@ -29,6 +29,13 @@ Light Yellow: #eae2b7
 body {
 	min-width: 576px;
 	font-family: 'Open Sans', Arial, sans-serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1;	
 }
 
 /* Header and Nave */
